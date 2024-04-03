@@ -1,0 +1,55 @@
+[
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "shift+cmd+s",
+    "command": "-workbench.action.files.saveAs"
+  },
+  // {
+  //   "key": "ctrl+s",
+  //   "command": "commands.run"
+  // },
+  // {
+  //   "key": "cmd+s",
+  //   "command": "commands.run",
+  //   "args": [
+  //     "editor.action.fixAll",
+  //     "workbench.action.files.save",
+  //   ],
+  //   "when": "editorTextFocus"
+  // }
+  // {
+  //   "key": "shift+alt+s",
+  //   "command": "workbench.action.files.saveLocalFile",
+  //   "when": "remoteFileDialogVisible"
+  // },
+  {
+    "key": "shift+cmd+s",
+    "command": "-workbench.action.files.saveLocalFile",
+    "when": "remoteFileDialogVisible"
+  },
+  {
+    "key": "shift+cmd+s",
+    "command": "editor.action.fixAll"
+  },
+  // {
+  //   "key": "ctrl+alt+s",
+  //   "command": "dart-import.fix-all"
+  // },
+  // {
+  //   "key": "ctrl+s",
+  //   "args": {
+  //     "sequence": [
+  //       "workbench.action.files.save",
+  //       "workbench.action.closeActiveEditor"
+  //     ]
+  //   },
+  //   "when": "editorFocus"
+  // }
+]

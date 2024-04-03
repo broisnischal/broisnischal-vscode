@@ -1,0 +1,173 @@
+{
+  "deno.lint": true,
+  "deno.format": true,
+  "deno.enable": true,
+  "deno.unstable": true,
+  "terminal.integrated.env.linux": {},
+  "console-ninja.featureSet": "Community",
+  "editor.fontFamily": "Consolas",
+  "editor.fontWeight": "300",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 19,
+  "editor.cursorBlinking": "blink",
+  "editor.fontLigatures": true,
+  // "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "gitlens.currentLine.enabled": false,
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
+  },
+  "codeium.enableConfig": {
+    "*": true,
+    "properties": true,
+    "prisma": true,
+    "ignore": true,
+    "xml": true,
+    "tailwindcss": true,
+    "plaintext": true,
+    "markdown": true,
+    "pip-requirements": true,
+    "mdx": true
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-linux": "/home/nees/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.kubectl-path-linux": "/home/nees/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-linux": "/home/nees/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "cody.commandCodeLenses": true,
+  "git.openRepositoryInParentFolders": "never",
+  "cmake.options.statusBarVisibility": "icon",
+  // "workbench.editor.showTabs": "multiple",
+  "window.menuBarVisibility": "toggle",
+  "editor.scrollbar.vertical": "auto",
+  // "window.titleBarStyle": "",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  // "breadcrumbs.filePath": "off",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "codeium.enableSearch": true,
+  "files.associations": {
+    // "*.db": "sqlite-viewer.option",
+    "*.css": "tailwindcss",
+    "*.json": "json",
+    "*.tsx": "typescriptreact",
+  },
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  // "typescript.tsdk": "node_modules/typescript/lib",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.heatmap.locations": [
+    "overview",
+    "gutter"
+  ],
+  "gitlens.currentLine.scrollable": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vitest.commandLine": "yarn test --",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "window.zoomLevel": 2,
+  "workbenchecolorTheme": "Default Light Modern",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.variableTypes.enabled": true,
+  // "editor.inlayHints.enabled": "offUnlessPressed",
+  "cmake.configureOnOpen": true,
+  "workbench.colorCustomizations": {
+    // "tab.activeBackground": "#2b2b2b"
+  },
+  "html.format.preserveNewLines": true,
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1",
+    "CW_NEW_SESSION": "1"
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
+  "gitlens.ai.experimental.provider": "anthropic",
+  "gitlens.ai.experimental.anthropic.model": "claude-3-opus-20240229",
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveWhenNoErrors": true,
+  "dartImport.fixOnSave": true,
+  "explorer.confirmPasteNative": false,
+  "cmake.showOptionsMovedNotification": false,
+  "dart.openDevTools": "flutter",
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "react-native-tools.showUserTips": false,
+  "commands.commands": {
+    "hotfixsave": {
+      "when": "editorFocus",
+      "statusBar": {
+        "text": "🚀"
+      },
+      "iconColor": "activityBar.inactiveForeground",
+    },
+  },
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "redhat.telemetry.enabled": true,
+  // "editor.codeActionsOnSave": {
+  //     "source.fixAll": "always"
+  // },
+  "explorer.fileNesting.patterns": {
+    "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "notebook.cellToolbarLocation": {
+    "default": "left"
+  },
+  "debug.toolBarLocation": "commandCenter",
+  "prettier.trailingComma": "all",
+  "evenBetterToml.formatter.arrayTrailingComma": true,
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.colorTheme": "Default Light Modern",
+  // "cmake.configureOnOpen": true
+}
